@@ -1,0 +1,35 @@
+html body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.button_row {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+button {
+    font-size: 24px;
+    padding: 12px 32px 12px 32px;
+}
